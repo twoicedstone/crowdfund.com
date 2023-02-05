@@ -106,7 +106,3 @@ window.addEventListener("resize", () => {
 	document.querySelector(".major").style.filter = "none";
 	location.reload();
 })
-
-window.onresize = function() {
-	location.reload();
-}
