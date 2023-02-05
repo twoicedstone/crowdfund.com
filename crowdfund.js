@@ -104,5 +104,4 @@ window.addEventListener("resize", () => {
     document.getElementById("mobile-nav").style.display = "none";
 	document.getElementById("nav-hide").style.display = "none";
 	document.querySelector(".major").style.filter = "none";
-	location.reload();
 })
