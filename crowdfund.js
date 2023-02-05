@@ -99,9 +99,3 @@ document.querySelector(".finish2").addEventListener("click", () => {
 	document.querySelector(".back-this-project").style.display = "none";
 	document.querySelector(".container").style.filter = "contrast(80%)";
 })
-
-window.addEventListener("resize", () => {
-    document.getElementById("mobile-nav").style.display = "none";
-	document.getElementById("nav-hide").style.display = "none";
-	document.querySelector(".major").style.filter = "none";
-})
