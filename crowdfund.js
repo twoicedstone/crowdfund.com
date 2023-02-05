@@ -105,3 +105,7 @@ window.addEventListener("resize", () => {
 	document.getElementById("nav-hide").style.display = "none";
 	document.querySelector(".major").style.filter = "none";
 })
+
+window.onresize = function() {
+	location.reload();
+}
